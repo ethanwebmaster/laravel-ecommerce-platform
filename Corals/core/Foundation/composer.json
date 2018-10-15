@@ -1,0 +1,9 @@
+{
+  "require": {
+    "doctrine/dbal": "^2.5",
+    "nesbot/carbon": "1.22.*"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "^2.4"
+  }
+}

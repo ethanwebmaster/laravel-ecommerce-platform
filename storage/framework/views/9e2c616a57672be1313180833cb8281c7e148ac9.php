@@ -1,0 +1,2 @@
+<img src="<?php echo e(asset(config('language.flags.asset_path'). $country_code .'.png')); ?>" alt="<?php echo e($name); ?>"
+     class="<?php echo e(config('language.flags.img_class')); ?>" width="<?php echo e(config('language.flags.width')); ?>"/>

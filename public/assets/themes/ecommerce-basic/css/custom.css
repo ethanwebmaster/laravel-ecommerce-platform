@@ -1,0 +1,54 @@
+@import "./pricingTable.min.css";
+
+.required-field > label::after {
+    content: " \f005";
+    color: #F44336;
+    font-family: FontAwesome;
+    font-size: .6em;
+    vertical-align: super;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none !important;
+}
+
+.form-group.has-error .help-block {
+    color: #ff1f1f;
+}
+
+@media (max-width: 768px) {
+    .sw-theme-arrows > ul.step-anchor > li > a, .sw-theme-arrows > ul.step-anchor > li > a:hover {
+        padding: 8px !important;
+    }
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+select.form-control[multiple] {
+    background: none;
+}
+
+.sw-btn-next {
+    margin-left: 10px !important;
+}
+
+.icheckbox_flat-blue, .iradio_flat-blue {
+    width: 21px;
+    height: 21px;
+}
+
+a.clickable-object {
+    position: relative;
+    display: inline-block;
+}
+
+a.clickable-object:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
